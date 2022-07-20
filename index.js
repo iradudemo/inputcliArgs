@@ -10,8 +10,9 @@ if (command === "add") {
   if (lesson && price) {
     commands.add(lesson, price);
   }
-} else if (command === "remove") {
-} else if (command === "remove") {
-} else {
+// } else if (command === "remove") {
+// } else if (command === "remove") {
+}
+ else {
   console.log("invalid command");
 }
